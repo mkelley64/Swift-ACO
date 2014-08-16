@@ -48,15 +48,15 @@ struct Matrix<T> {
     }
 }
 
-class Ant {
+struct Ant {
     var trail = [Int]()
 }
 
 class ACO {
-    var alpha = 3.0
-    var beta = 2.0
-    var rho = 0.01
-    var Q = 2.0
+    let alpha = 3.0
+    let beta = 2.0
+    let rho = 0.01
+    let Q = 2.0
     
     var numCities: Int
     var numAnts: Int
